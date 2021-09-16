@@ -1,23 +1,12 @@
 import os
 
-import cv2
 import numpy as np
 import tvm
 import tvm.relay.testing
-import tycaffeparse
-from tvm import ir
 from tvm import relay
-from tvm import te
-from tvm import tir
-from tvm import topi
 from tvm.contrib import graph_executor
-from tvm.contrib.debugger import debug_executor
 from tvm.ir import IRModule
 from tvm.relay import analysis
-from tvm.relay import expr as _expr
-from tvm.relay import function as _function
-from tvm.relay import op as _op
-from tvm.relay.testing import run_infer_type
 from tvm.relay import expr as _expr
 from tvm.relay import function as _function
 from tvm.relay import op as _op
